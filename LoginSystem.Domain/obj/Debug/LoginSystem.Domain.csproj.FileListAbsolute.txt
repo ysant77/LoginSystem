@@ -1,0 +1,9 @@
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\bin\Debug\LoginSystem.Domain.dll
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\bin\Debug\LoginSystem.Domain.pdb
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.csprojAssemblyReference.cache
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.dll
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.pdb
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.csproj.CopyComplete
