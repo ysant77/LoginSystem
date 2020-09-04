@@ -42,9 +42,10 @@ namespace LoginSystem.WPF.State.Authenticators
             CurrentAccount = await _authenticationService.Login(username, password);
         }
 
-        public void Logout()
+        public async Task<bool> Logout()
         {
             CurrentAccount = null;
+            return true;
         }
 
         public async Task<RegistrationResult> Register(string email, string username, string password, string confirmPassword)

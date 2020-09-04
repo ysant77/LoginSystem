@@ -56,10 +56,12 @@ namespace LoginSystem.WPF
                     services.AddSingleton<IPasswordHasher, PasswordHasher>();
 
                     services.AddSingleton<IViewModelFactory, ViewModelFactory>();
-                    services.AddSingleton<HomeViewModel>();
+                    services.AddSingleton<ViewModelDelegateReNavigator<LoginViewModel>>();
                     services.AddSingleton<CreateViewModel<HomeViewModel>>(s =>
                     {
-                        return () => s.GetRequiredService<HomeViewModel>();
+                        return () => new HomeViewModel(
+                            s.GetRequiredService<IAuthenticator>(),
+                            s.GetRequiredService<ViewModelDelegateReNavigator<LoginViewModel>>());
                     });
 
                     services.AddSingleton<ViewModelDelegateReNavigator<HomeViewModel>>();

@@ -6,3 +6,4 @@ C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem
 C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.csproj.CopyComplete
+C:\Users\yatha\source\repos\LoginSystem\LoginSystem.Domain\obj\Debug\LoginSystem.Domain.csprojAssemblyReference.cache

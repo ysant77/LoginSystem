@@ -20,9 +20,26 @@ namespace LoginSystem.WPF.Views
     /// </summary>
     public partial class HomeView : UserControl
     {
+        public static readonly DependencyProperty LogoutCommandProperty =
+          DependencyProperty.Register("LogoutCommand", typeof(ICommand), typeof(HomeView), new PropertyMetadata(null));
+
+        public ICommand LogoutCommand
+        {
+            get { return (ICommand)GetValue(LogoutCommandProperty); }
+            set { SetValue(LogoutCommandProperty, value); }
+        }
+
         public HomeView()
         {
             InitializeComponent();
+        }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            if (LogoutCommand != null)
+            {
+                LogoutCommand.Execute(null);
+            }
         }
     }
 }

@@ -19,6 +19,6 @@ namespace LoginSystem.WPF.State.Authenticators
 
         Task Login(string username, string password);
 
-        void Logout();
+        Task<bool> Logout();
     }
 }
