@@ -12,11 +12,9 @@ namespace LoginSystem.Persistence
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Account> Accounts { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public LoginDbContext(DbContextOptions options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=LoginSystemDB;Trusted_Connection=True;");
-            base.OnConfiguring(optionsBuilder);
+
         }
     }
 }

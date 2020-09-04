@@ -1,0 +1,15 @@
+﻿using LoginSystem.Domain.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LoginSystem.WPF.State.Accounts
+{
+    public interface IAccountStore
+    {
+        Account CurrentAccount { get; set; }
+        event Action StateChanged;
+    }
+}
