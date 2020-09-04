@@ -39,7 +39,7 @@ namespace LoginSystem.WPF.Commands
             }
             catch (InvalidPasswordException)
             {
-                _loginViewModel.ErrorMessage = "Incorrect password.";
+                _loginViewModel.ErrorMessage = "Incorrect username or password.";
             }
             catch (Exception)
             {
